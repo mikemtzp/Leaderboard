@@ -7,8 +7,6 @@
 - Linters: Lighthouse, Webhint, Stylelint & ESlint
 - Webpack
 
-## 💻 [Live demo](https://mikemtzp.github.io/Leaderboard/dist)
-
 ## 🧮 Prerequisites
 
 ### Setup
