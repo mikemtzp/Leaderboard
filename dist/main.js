@@ -116,7 +116,7 @@ eval("\r\n\r\n/* istanbul ignore next  */\r\nfunction styleTagTransform(css, sty
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://set-up-project-with-webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst button = document.querySelector('.refresh-btn')\n\n\n//# sourceURL=webpack://set-up-project-with-webpack/./src/index.js?");
 
 /***/ })
 
