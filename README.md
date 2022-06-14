@@ -1,5 +1,5 @@
-# Title
-Description
+# Leaderboard
+> This project is a leaderboard website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠️ Built With
 
@@ -7,7 +7,7 @@ Description
 - Linters: Lighthouse, Webhint, Stylelint & ESlint
 - Webpack
 
-## 💻 [Live demo](https://mikemtzp.github.io/name/)
+## 💻 [Live demo](https://mikemtzp.github.io/Leaderboard/)
 
 ## 🧮 Prerequisites
 
@@ -17,8 +17,8 @@ Follow these steps on your console to properly clone this repository on your des
 
 ```
 $ cd desktop
-$ git clone https://github.com/mikemtzp/name.git
-$ cd my-portfolio
+$ git clone https://github.com/mikemtzp/Leaderboard.git
+$ cd Leaderboard
 $ open index.html file
 ```
 
@@ -37,7 +37,7 @@ $ open index.html file
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/mikemtzp/name/issues).
+Feel free to check the [issues page](https://github.com/mikemtzp/Leaderboard/issues).
 
 ## ⭐️ Show your support
 
@@ -49,4 +49,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-[MIT License](https://github.com/mikemtzp/name/blob/master/MIT.md)
+[MIT License](https://github.com/mikemtzp/Leaderboard/blob/master/MIT.md)

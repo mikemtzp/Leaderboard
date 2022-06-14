@@ -3,3 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 { font-size: 3.5rem; }
+
+h2 { font-size: 2rem; }
+
+.main-container { margin: 2rem; }
+
+.scores-container {
+  display: flex;
+  margin: 2rem;
+}
+
+.scores-title { display: flex; }
+
+.refresh-btn {
+  padding: 0.2rem;
+  align-self: center;
+  margin-left: 3rem;
+}
+
+.scores-list {
+  list-style: none;
+  margin-top: 1rem;
+  border: 2px solid #000;
+}
+
+.item {
+  background-color: rgb(218, 218, 218);
+  padding: 0.3rem;
+}
+
+.item:nth-child(odd) { background-color: #fff; }
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > * { margin-top: 1rem; }
+
+.input { padding: 0.2rem; }
+
+.submit-btn {
+  align-self: end;
+  padding: 0.2rem;
+}
