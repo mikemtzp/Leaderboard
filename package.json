@@ -1,7 +1,7 @@
 {
   "name": "set-up-project-with-webpack",
   "version": "1.0.0",
-  "description": "In this exercise I will build a simple yet powerful webpack boilerplate, which later I will be able to use as a starting point in my projects. I'll be working with the webpack official guides.",
+  "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikemtzp/Set-up-project-with-webpack.git"
+    "url": "git+https://github.com/mikemtzp/set-up-project-with-webpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikemtzp/Set-up-project-with-webpack/issues"
+    "url": "https://github.com/mikemtzp/set-up-project-with-webpack/issues"
   },
-  "homepage": "https://github.com/mikemtzp/Set-up-project-with-webpack#readme",
+  "homepage": "https://github.com/mikemtzp/set-up-project-with-webpack#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
