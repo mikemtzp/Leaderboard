@@ -2,8 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Leaderboard</title>
   </head>
   <body>
@@ -15,7 +21,9 @@
           <div class="scores">
             <div class="scores-title">
               <h2>Recent scores</h2>
-              <button class="refresh-btn" id="refresh" type="button">Refresh</button>
+              <button class="refresh-btn btn-style" id="refresh" type="button">
+                Refresh
+              </button>
             </div>
             <ul class="scores-list" id="scores">
               <!-- Javascript generated scores -->
@@ -31,16 +39,18 @@
                 type="text"
                 name="user"
                 id="user"
-                placeholder="Your name"
+                placeholder="Enter your name"
               />
               <input
                 class="input"
                 type="text"
                 name="score"
                 id="score"
-                placeholder="Your score"
+                placeholder="Enter your score"
               />
-              <button class="submit-btn" id="submit" type="button">Submit</button>
+              <button class="submit-btn btn-style" id="submit" type="button">
+                Submit
+              </button>
               <div id="message"></div>
             </form>
           </div>

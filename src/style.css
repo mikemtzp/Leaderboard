@@ -2,43 +2,67 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Anek Malayalam', sans-serif;
 }
 
-h1 { font-size: 3.5rem; }
-
-h2 { font-size: 2rem; }
+body {
+  background: rgb(212, 255, 149);
+  background: radial-gradient(circle, rgba(212, 255, 149, 1) 0%, rgba(178, 255, 125, 1) 41%, rgba(127, 217, 111, 1) 100%, rgba(48, 116, 75, 1) 100%);
+}
 
 .main-container { margin: 2rem; }
 
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 .scores-container {
   display: flex;
+  justify-content: center;
   margin: 2rem;
 }
 
-.scores-title { display: flex; }
+.scores { width: 40%; }
 
-.refresh-btn {
-  padding: 0.2rem;
-  align-self: center;
-  margin-left: 3rem;
+.scores-title {
+  display: flex;
+  justify-content: space-between;
 }
+
+.refresh-btn { align-self: center; }
 
 .scores-list {
   list-style: none;
   margin-top: 1rem;
-  border: 2px solid #000;
+  border: 3px solid #000;
+  border-radius: 12px;
+  box-shadow: #000 8px 5px 15px;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .item {
-  background-color: rgb(218, 218, 218);
-  padding: 0.3rem;
+  background-color: #efffe5;
+  padding: 0.1rem;
 }
 
-.item:nth-child(odd) { background-color: #fff; }
+.item:nth-child(odd) { background-color: rgb(203, 255, 173); }
+.item:first-child { border-radius: 8px 8px 0 0; }
+.item:last-child { border-radius: 0 0 8px 8px; }
 
 .add-score {
+  position: relative;
+  width: 25%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-left: 5rem;
 }
 
@@ -49,9 +73,31 @@ h2 { font-size: 2rem; }
 
 .form > * { margin-top: 1rem; }
 
-.input { padding: 0.2rem; }
+.input {
+  padding: 0.1rem 0.3rem;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 1rem;
+}
 
-.submit-btn {
-  align-self: end;
-  padding: 0.2rem;
+.input:focus { border: 2.5px solid #000; }
+
+::placeholder { font-size: 1rem; }
+
+.submit-btn { align-self: end; }
+
+.btn-style {
+  padding: 0.4rem;
+  cursor: pointer;
+  border: 2.5px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(49, 101, 54);
+  font-size: 1rem;
+}
+
+.btn-style:hover {
+  color: rgb(49, 101, 54);
+  background-color: #fff;
 }
