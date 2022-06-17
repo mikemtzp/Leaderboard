@@ -15,9 +15,12 @@ Follow these steps on your console to properly clone this repository on your des
 
 ```
 $ cd desktop
-$ git clone https://github.com/mikemtzp/Leaderboard.git
-$ cd Leaderboard
-$ open index.html file
+$ git clone 'repo_path'
+$ cd 'repo_name'
+$ code . 
+Run 'npm i' to install the dev dependencies.
+Run 'npm start' to run the website from your local machine.
+Run 'npm run build' to build the code after editing it.
 ```
 
 ### Install
